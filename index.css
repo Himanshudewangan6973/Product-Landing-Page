@@ -1,0 +1,150 @@
+html {
+    font-size: 10px;
+}
+body {
+    background-color: rgb(225, 225, 225);
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header {
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+    width: 100vw;
+    z-index: 4;
+}
+
+#first-header {
+    background-color: rgb(42, 43, 49);
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+#signup {
+    background-color: lightgreen;
+    border-radius: 4px;
+    color: black;
+    margin-left: 5px;
+    padding: 7px;
+}
+
+#login {
+    background-color: rgb(46, 46, 53);
+    border-radius: 4px;
+    color: white;
+    margin-left: 5px;
+    padding: 7px;
+}
+
+#second-header {
+    background-color: rgb(225, 225, 225);
+    color: black;
+    padding: 0px;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+}
+
+#second-header a {
+    color: black;
+    text-align: center;
+}
+#original_trombones {
+    width: 300px;
+    height: auto;
+}
+
+#page-wraper {
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#main {
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+}
+
+#email {
+    background: #ffffff;
+    border-color: gray;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 5px 70px 5px 5px;
+}
+
+#main button {
+    background: #f1c40f;
+    border: hidden;
+    font-size: large;
+    font-weight: bold;
+    margin: 15px 0px;
+    padding: 5px 15px;
+}
+
+#container {
+}
+
+ul {
+    list-style: none;
+}
+#features {
+    margin-left: 10%;
+}
+
+#how-it-works, #pricing{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) 
+#pricing {
+    flex-direction: column;
+}
+
+#pricing {
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid {
+    border: black 1px solid;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hd {
+    margin: 0;
+    background-color: lightgray;
+}
+
+footer {
+    float: right;
+}
